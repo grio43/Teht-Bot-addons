@@ -21,12 +21,12 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 		This.ConfigRef:AddSetting[Dropoff,""]
 	}
 	
-	string Planet1 = F
-	string Planet2 = F
-	string Planet3 = F
-	string Planet4 = F
-	string Planet5 = F
-	string Planet6 = F
+	string Planet1 = "F"
+	string Planet2 = "F"
+	string Planet3 = "F"
+	string Planet4 = "F"
+	string Planet5 = "F"
+	string Planet6 = "F"
 
     Setting(string, Prefix, SetPrefix)
 	Setting(string, Dropoff, SetDropoff)
