@@ -31,15 +31,55 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
     Setting(string, ExtremelySharedDBPrefix, SetExtremelySharedDBPrefix)
 
     Setting(string, Planet1, SetPlanet1)
-    Setting(string, Planet1matt1, SetPlanet1matt1)
-    Setting(string, Planet1matt1Qty, SetPlanet1matt1Qty)
-    Setting(string, Planet1matt1, SetPlanet1matt1)
-    Setting(string, Planet1matt1, SetPlanet1matt1)
+    Setting(string, Planet1_matt_1, SetPlanet1_matt_1)
+	Setting(string, Planet1_matt_qty_1, SetPlanet1_matt_qty_1)
+	Setting(string, Planet1_matt_2, SetPlanet1_matt_2)
+	Setting(string, Planet1_matt_qty_2, SetPlanet1_matt_qty_2)
+	Setting(string, Planet1_matt_3, SetPlanet1_matt_3)
+	Setting(string, Planet1_matt_qty_3, SetPlanet1_matt_qty_3)
+
     Setting(string, Planet2, SetPlanet2)
+	Setting(string, Planet2_matt_1, SetPlanet2_matt_1)
+	Setting(string, Planet2_matt_qty_1, SetPlanet2_matt_qty_1)
+	Setting(string, Planet2_matt_2, SetPlanet2_matt_2)
+	Setting(string, Planet2_matt_qty_2, SetPlanet2_matt_qty_2)
+	Setting(string, Planet2_matt_3, SetPlanet2_matt_3)
+	Setting(string, Planet2_matt_qty_3, SetPlanet2_matt_qty_3)
+
     Setting(string, Planet3, SetPlanet3)
+	Setting(string, Planet3_matt_1, SetPlanet3_matt_1)
+	Setting(string, Planet3_matt_qty_1, SetPlanet3_matt_qty_1)
+	Setting(string, Planet3_matt_2, SetPlanet3_matt_2)
+	Setting(string, Planet3_matt_qty_2, SetPlanet3_matt_qty_2)
+	Setting(string, Planet3_matt_3, SetPlanet3_matt_3)
+	Setting(string, Planet3_matt_qty_3, SetPlanet3_matt_qty_3)
+
+
     Setting(string, Planet4, SetPlanet4)
+	Setting(string, Planet4_matt_1, SetPlanet4_matt_1)
+	Setting(string, Planet4_matt_qty_1, SetPlanet4_matt_qty_1)
+	Setting(string, Planet4_matt_2, SetPlanet4_matt_2)
+	Setting(string, Planet4_matt_qty_2, SetPlanet4_matt_qty_2)
+	Setting(string, Planet4_matt_3, SetPlanet4_matt_3)
+	Setting(string, Planet4_matt_qty_3, SetPlanet4_matt_qty_3)
+
+
     Setting(string, Planet5, SetPlanet5)
+	Setting(string, Planet5_matt_1, SetPlanet5_matt_1)
+	Setting(string, Planet5_matt_qty_1, SetPlanet5_matt_qty_1)
+	Setting(string, Planet5_matt_2, SetPlanet5_matt_2)
+	Setting(string, Planet5_matt_qty_2, SetPlanet5_matt_qty_2)
+	Setting(string, Planet5_matt_3, SetPlanet5_matt_3)
+	Setting(string, Planet5_matt_qty_3, SetPlanet5_matt_qty_3)
+
+
     Setting(string, Planet6, SetPlanet6)
+	Setting(string, Planet6_matt_1, SetPlanet6_matt_1)
+	Setting(string, Planet6_matt_qty_1, SetPlanet6_matt_qty_1)
+	Setting(string, Planet6_matt_2, SetPlanet6_matt_2)
+	Setting(string, Planet6_matt_qty_2, SetPlanet6_matt_qty_2)
+	Setting(string, Planet6_matt_3, SetPlanet6_matt_3)
+	Setting(string, Planet6_matt_qty_3, SetPlanet6_matt_qty_3)
 }
 
 objectdef obj_PI inherits obj_StateQueue
