@@ -18,10 +18,15 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	{
 		ConfigManager.ConfigRoot:AddSet[${This.SetName}]
 		This.ConfigRef:AddSet[SafeBookmarks]
-		This.ConfigRef:AddSetting[MunitionStorage, Personal Hangar]
-		This.ConfigRef:AddSetting[Prefix,Salvage:]
 		This.ConfigRef:AddSetting[Dropoff,""]
 	}
+	
+	string Planet1 = F
+	string Planet2 = F
+	string Planet3 = F
+	string Planet4 = F
+	string Planet5 = F
+	string Planet6 = F
 
     Setting(string, Prefix, SetPrefix)
 	Setting(string, Dropoff, SetDropoff)
@@ -30,7 +35,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
     Setting(string, ExtremelySharedDBPath, SetExtremelySharedDBPath)
     Setting(string, ExtremelySharedDBPrefix, SetExtremelySharedDBPrefix)
 
-    Setting(string, Planet1, SetPlanet1)
+    Setting(Planet1, SetPlanet1)
     Setting(string, Planet1_matt_1, SetPlanet1_matt_1)
 	Setting(string, Planet1_matt_qty_1, SetPlanet1_matt_qty_1)
 	Setting(string, Planet1_matt_2, SetPlanet1_matt_2)
@@ -38,7 +43,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	Setting(string, Planet1_matt_3, SetPlanet1_matt_3)
 	Setting(string, Planet1_matt_qty_3, SetPlanet1_matt_qty_3)
 
-    Setting(string, Planet2, SetPlanet2)
+    Setting(Planet2, SetPlanet2)
 	Setting(string, Planet2_matt_1, SetPlanet2_matt_1)
 	Setting(string, Planet2_matt_qty_1, SetPlanet2_matt_qty_1)
 	Setting(string, Planet2_matt_2, SetPlanet2_matt_2)
@@ -46,7 +51,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	Setting(string, Planet2_matt_3, SetPlanet2_matt_3)
 	Setting(string, Planet2_matt_qty_3, SetPlanet2_matt_qty_3)
 
-    Setting(string, Planet3, SetPlanet3)
+    Setting(Planet3, SetPlanet3)
 	Setting(string, Planet3_matt_1, SetPlanet3_matt_1)
 	Setting(string, Planet3_matt_qty_1, SetPlanet3_matt_qty_1)
 	Setting(string, Planet3_matt_2, SetPlanet3_matt_2)
@@ -55,7 +60,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	Setting(string, Planet3_matt_qty_3, SetPlanet3_matt_qty_3)
 
 
-    Setting(string, Planet4, SetPlanet4)
+    Setting(Planet4, SetPlanet4)
 	Setting(string, Planet4_matt_1, SetPlanet4_matt_1)
 	Setting(string, Planet4_matt_qty_1, SetPlanet4_matt_qty_1)
 	Setting(string, Planet4_matt_2, SetPlanet4_matt_2)
@@ -64,7 +69,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	Setting(string, Planet4_matt_qty_3, SetPlanet4_matt_qty_3)
 
 
-    Setting(string, Planet5, SetPlanet5)
+    Setting(Planet5, SetPlanet5)
 	Setting(string, Planet5_matt_1, SetPlanet5_matt_1)
 	Setting(string, Planet5_matt_qty_1, SetPlanet5_matt_qty_1)
 	Setting(string, Planet5_matt_2, SetPlanet5_matt_2)
@@ -73,7 +78,7 @@ objectdef obj_Configuration_PI inherits obj_Configuration_Base
 	Setting(string, Planet5_matt_qty_3, SetPlanet5_matt_qty_3)
 
 
-    Setting(string, Planet6, SetPlanet6)
+    Setting(Planet6, SetPlanet6)
 	Setting(string, Planet6_matt_1, SetPlanet6_matt_1)
 	Setting(string, Planet6_matt_qty_1, SetPlanet6_matt_qty_1)
 	Setting(string, Planet6_matt_2, SetPlanet6_matt_2)
